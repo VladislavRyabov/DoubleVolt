@@ -230,7 +230,7 @@ DEPENDENCIES
   pg
   puma (~> 3.11)
   rails (~> 5.2.4, >= 5.2.4.4)
-  rails_12factor
+  rails_12factor (= 0.0.2)
   sass-rails (~> 5.0)
   sdoc (= 0.4.0)
   spring
