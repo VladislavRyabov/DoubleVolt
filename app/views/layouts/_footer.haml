@@ -1,0 +1,79 @@
+%footer#footer.footer
+  .container
+    .row
+      .col-12.col-xl-3
+        .footer_content
+          .footer__logo.d-flex
+            %a{href: "index.html"}
+              .logo__text.logo__text_white
+                DoubleVolt
+          %ul.footer__item.d-flex
+            %li.footer__link
+              %a{href: "#"}
+                %i.fab.fa-facebook-f
+            %li.footer__link
+              %a{href: "#"}
+                %i.fab.fa-facebook-messenger
+            %li.footer__link
+              %a{href: "#"}
+                %i.fab.fa-instagram
+            %li.footer__link
+              %a{href: "#"}
+                %i.fab.fa-youtube
+          %p.footer__word.d-none.d-xl-block
+            Разработано специально
+            для коучинга WAYUP
+      .col-sm-3.col-lg-2
+        %h4.footer__title
+          Меню
+        %ul.footer__menu
+          %li.footer__putkt
+            %a{href: "index.html"} Главная
+          %li.footer__putkt
+            %a{href: "О компании.html"} О компании
+          %li.footer__putkt
+            %a{href: "Отзывы.html"} Отзывы
+          %li.footer__putkt
+            %a{href: "#news"} Новости
+      .col-sm-6.col-md-6.col-lg-3
+        %h4.footer__title
+          Контакты
+        %ul.footer__menu
+          %li.footer__putkt.d-flex
+            .footer__img
+              %i.fas.fa-map-marker-alt
+            .footer__Phone
+              %a.footer__number{href: "#"}
+                г. Одесса
+                %br/
+                ул. Богдана Хмельницкого, 59
+          %li.footer__putkt.d-flex
+            .footer__img
+              %i.fas.fa-phone
+            .footer__Phone
+              %a.footer__number{href: "tel:+74955771811"}
+                + 7 (495) 577-18-11
+              %a.footer__number{href: "tel:+74955672815"}
+                + 7 (495) 567-28-15
+          %li.footer__putkt.d-flex
+            .footer__img
+              %i.fas.fa-envelope
+            .footer__Phone
+              %a.footer__number{href: "#"}
+                JClegal@gmail.com
+      .col-12.col-lg-4
+        %h4.footer__heading
+          Подписаться на рассылку новостей
+        %form.footer__form{action: "#"}
+          %input.footer__input{name: "email", placeholder: "Введите E-mail", required: "", type: "email"}/
+          .footer__button
+            %button.footer__btn.btn{type: "submit"}
+              Подписаться
+    .row
+      .col-lg-12
+        %p.footer__word.d-xl-none
+          Разработано специально
+          для коучинга WAYUP
+        .footer__line
+          %p.footer__head
+            © 2007-2021 Все права защищены

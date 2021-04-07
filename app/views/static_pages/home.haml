@@ -1,0 +1,276 @@
+.offer
+  .container
+    .row
+      .col-12
+        .offer__info
+          %h1.offer__title
+            АВТО из США от $6000
+          %p.offer__heading
+            с ремонтом и регистрацией
+          %p.offer__text
+          = link_to t('en.btn_offer'), "#",class: 'offer__btn btn'
+%section#Cases.Casesd
+  .container
+    .row
+      .col-12.col-xl-7
+        .Cases__info
+          %h2.Cases__title
+            ПОРЯДОК НАШЕЙ РАБОТЫ:
+          %p.Cases__text
+%section.Services
+  .container
+    .row
+      .col-md-6.col-lg-4
+        .Services__card
+          %h3.Services__title
+            Подбор авто и расчет цены
+          %p.Services__text
+            Квалифицированный подбор авто, проверка через системы CARFAX, AUTOCHECK, EPICVIN
+          .Services__price
+          .Services__wrap.d-flex
+            .Services__btn
+              %a.Services__button{href: "#"} Подробнее
+            %img{alt: "idea", src: "/assets/imgstat1.png"}/
+      .col-md-6.col-lg-4
+        .Services__card
+          %h3.Services__title
+            Заключение договора, участие в аукционе
+          %p.Services__text
+            Официальный юридический договор и поэтапная оплата
+          .Services__price
+          .Services__wrap.d-flex
+            .Services__btn
+              %a.Services__button{href: "#"} Подробнее
+            %img{alt: "idea", src: "/assets/imgidea2.png"}/
+      .col-md-6.col-lg-4
+        .Services__card
+          %h3.Services__title
+            Доставка в порт Одессы
+          %p.Services__text
+            Минимальный сбор аукциона и стоимость доставки
+          .Services__price
+            $480
+          .Services__wrap.d-flex
+            .Services__btn
+              %a.Services__button{href: "#"} Подробнее
+            %img{alt: "internet", src: "/assets/imginternet3.png"}/
+      .col-md-6.col-lg-4
+        .Services__card
+          %h3.Services__title
+            Экспедирование и растаможивание
+          %p.Services__text
+            Страховка авто по всему пути: Аукцион — Одесса
+          .Services__price
+          .Services__wrap.d-flex
+            .Services__btn
+              %a.Services__button{href: "#"} Подробнее
+            %img{alt: "stat", src: "/assets/imgstat4.png"}/
+      .col-md-6.col-lg-4
+        .Services__card
+          %h3.Services__title
+            Диагностика и ремонт
+          %p.Services__text
+            Быстрая растаможка с опытными экспедиторами и брокерами
+          .Services__price
+          .Services__wrap.d-flex
+            .Services__btn
+              %a.Services__button{href: "#"} Подробнее
+            %img{alt: "business", src: "/assets/imgbusiness5.png"}/
+      .col-md-6.col-lg-4
+        .Services__card
+          %h3.Services__title
+            Сертифицирование и постановка на учёт
+          %p.Services__text
+            Качественный ремонт на партнёрских СТО
+          .Services__price
+          .Services__wrap.d-flex
+            .Services__btn
+              %a.Services__button{href: "#"} Подробнее
+            %img{alt: "internet", src: "/assets/imginternet6.png"}/
+%section#connection.connection
+  .connection_bg
+    .container
+      .row
+        .col-12.col-lg-7
+          %img.connection__decor_mdl.d-lg-none{alt: "decor", src: "/assets/decor 11.png"}/
+          %h3.connection__title.ml-auto
+            Свяжитесь с нами, чтобы узнать,
+            как мы можем вам помочь
+          %a.connection__btn.btn.ml-auto{href: "#"}
+            Связаться с нами
+          %img.connection__decor_lg.d-none.d-lg-block{alt: "decor", src: "/assets/decor.png"}/
+          %img.connection__decor_mdr.d-lg-none{alt: "decor", src: "/assets/decor 10.png"}/
+        .col-lg-5.d-none.d-lg-block
+          .connection__phone.d-none.d-lg-block
+            %img{alt: "phone", src: "/assets/phone.png"}/
+%section#news.news
+  .container
+    .row
+      .col-lg-6
+      .col-lg-6
+        %p.news__head
+          САМЫЕ АКТУАЛЬНЫЕ
+        %h2.news__title
+          ПРЕДЛОЖЕНИЯ
+    .row
+      .col-sm-6.col-lg-4
+        .news__card.ml-auto
+          .news__img
+            .news__item
+              %img.news__itemimg{alt: "Mask Group", src: "/assets/11.jpg"}/
+              .news__overlay
+          .news__info
+            %h5.news__heading
+              Ford Fusion
+            %p.news__text
+              Растаможенное Авто
+            %p.news__text
+              2019г
+              %br/
+              2.5л
+              %br/
+              58 000км
+              %br/
+            %p.news__span
+              14000$
+            %a.news__word{href: "#"}
+              Читать больше
+      .col-sm-6.col-lg-4
+        .news__card.ml-auto
+          .news__img
+            .news__item
+              %img.news__itemimg{alt: "Mask Group", src: "/assets/15.jpg"}/
+              .news__overlay
+          .news__info
+            %h5.news__heading
+              Ford Fusion
+            %p.news__text
+              Растаможенное Авто
+            %p.news__text
+              2015г
+              %br/
+              1.5л
+              %br/
+              76 000км
+              %br/
+            %p.news__span
+              8000$
+            %a.news__word{href: "#"}
+              Читать больше
+      .col-lg-4.d-none.d-lg-block
+        .news__card.ml-auto
+          .news__img
+            .news__item
+              %img.news__itemimg{alt: "Mask Group", src: "/assets/13.jpg"}/
+              .news__overlay
+          .news__info
+            %h5.news__heading
+              Acura TSX
+            %p.news__text
+              Растаможенное Авто
+            %p.news__text
+              2015г
+              %br/
+              2.4л
+              %br/
+              123 000км
+              %br/
+            %p.news__span
+              8000$
+            %a.news__word{href: "#"}
+              Читать больше
+    .row
+      .col-sm-6.col-lg-4
+        .news__card.ml-auto
+          .news__img.d-flex
+            .news__item
+              %img.news__itemimg{alt: "Mask Group", src: "/assets/14.jpg"}/
+              .news__overlay
+          .news__info
+            %h5.news__heading
+              Ford Focus S
+            %p.news__text
+              2015г
+              %br/
+              2.0л
+              %br/
+              63 450км
+              %br/
+            %p.news__span
+              6000$
+            %a.news__word{href: "#"}
+              Читать больше
+      .col-sm-6.col-lg-4
+        .news__card.ml-auto
+          .news__img.d-flex
+            .news__item
+              %img.news__itemimg{alt: "Mask Group", src: "/assets/12.jpg"}/
+              .news__overlay
+          .news__info
+            %h5.news__heading
+              Toyota Camre
+            %p.news__text
+              2018г
+              %br/
+              2.4л
+              %br/
+              83 250км
+              %br/
+            %p.news__span
+              13000$
+            %a.news__word{href: "#"}
+              Читать больше
+      .col-sm-4.d-none.d-lg-block
+        .news__card.ml-auto
+          .news__img.d-flex
+            .news__item
+              %img.news__itemimg{alt: "Mask Group", src: "/assets/16.jpg"}/
+              .news__overlay
+          .news__info
+            %h5.news__heading
+              Ford Focus S
+            %p.news__text
+              2015г
+              %br/
+              2.0л
+              %br/
+              63 450км
+              %br/
+            %p.news__span
+              6000$
+            %a.news__word{href: "#"}
+              Читать больше
+%section#map.map
+  .container
+    .row
+      .col-xl-12
+        .map__card.ml-auto
+          %h4.map__title
+            Как нас найти
+          %ul.map__menu
+            %li.map__putkt.d-flex
+              .map__icon
+                %i.fas.fa-map-marker-alt
+              .map__Phone
+                %a.map__number{href: "#"}
+                  г. Одесса
+                  %br/
+                  ул. Богдана Хмельницкого, 59
+            %li.map__putkt.d-flex
+              .map__icon
+                %i.fas.fa-phone
+              .map__Phone
+                %a.map__number{href: "tel:+74955771811"}
+                  + 7 (495) 577-18-11
+                %a.map__number{href: "tel:+74955672815"}
+                  + 7 (495) 567-28-15
+            %li.map__putkt.d-flex
+              .map__icon
+                %i.fas.fa-envelope
+              .map__Phone
+                %a.footer__number{href: "#"}
+                  JClegal@gmail.com
+          .map__text
+            Мы работаем с 9:00 до 22:00 в рабочие дни
+  .map__maps
+    %iframe{allowfullscreen: "", "aria-hidden" => "false", frameborder: "0", height: "410", src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.26851527924!2d30.712812715591145!3d46.46318907912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6322f777015a1%3A0xdbdc0d680293df98!2z0YPQuy4g0JHQvtCz0LTQsNC90LAg0KXQvNC10LvRjNC90LjRhtC60L7Qs9C-LCA1OSwg0J7QtNC10YHRgdCwLCDQntC00LXRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2NTAwMA!5e0!3m2!1sru!2sua!4v1611872538756!5m2!1sru!2sua", style: "border:0;", tabindex: "0", width: "100%"}
